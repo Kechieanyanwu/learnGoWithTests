@@ -37,6 +37,7 @@ func SumAllTails(numbersToSum ...[]int) []int {
 	return tailSlice
 }
 
+// finds and returns the first set of consecutive numbers in a file
 func FindConsecutiveNumbers(filename string) []byte {
 	var digitRegexp = regexp.MustCompile("[0-9]+")
 	b, _ := os.ReadFile(filename)
