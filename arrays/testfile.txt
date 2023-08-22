@@ -1,0 +1,7 @@
+This is a test file to practice slice allocation of memory
+
+This is an example text file.
+It contains some numbers: 12345.
+This is some additional text.
+There are also numbers here: 6789.
+More text goes here.
